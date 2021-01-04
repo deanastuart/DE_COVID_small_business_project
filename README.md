@@ -2,6 +2,6 @@
 
 This project is to explore the correlations between Delaware State COVID restrictions and small business closings.
 
-Use case:
-How it works:
-Technologies Used:
+## Use case:
+## How it works:
+## Technologies Used:
