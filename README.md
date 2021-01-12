@@ -1,6 +1,6 @@
 # DE_COVID_small_business_project
 
-This project is to explore the correlations between Delaware State COVID restrictions and small business c
+This project is to explore the correlations between Delaware State COVID restrictions and small business 
 
 ## Use case:
 ## How it works:
