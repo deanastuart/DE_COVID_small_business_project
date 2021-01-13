@@ -10,6 +10,7 @@ This project is to explore the correlations between Delaware State COVID restric
 * Business closures and revenue
 ### Pipelines deployed in Kubernetes
 ### Data retrieved from MYSQL to create visualizations with Folium and matplotlib
+![](DE_Covid_Map.png)
 
 ## Technologies Used:
 * Python
