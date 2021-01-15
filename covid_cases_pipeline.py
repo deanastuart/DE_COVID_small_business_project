@@ -57,6 +57,8 @@ def get_data():
 
         df = pd.concat(li, axis=0, ignore_index=True)
 
+    print("data retrieved")
+
     # convert location to int zipcodes and rename column
     df['Location'] = df['Location'].apply(lambda x: int(str(x[9::])))
     df.rename(columns={'Location': 'Zipcode'}, inplace=True)
@@ -83,11 +85,15 @@ def get_data():
         longs[int(key)] = float(value[1])
     df['Zipcode latitude'] = df['Zipcode'].map(lats)
     df['Zipcode longitude'] = df['Zipcode'].map(longs)
-
+    print("data cleaned")
     #add to temp table in database
     df.to_sql('covid_cases_temp', con, if_exists='replace', index=False)
+    print("data written to temp table")
     #transfer from temptable to main table in database
     con.execute("INSERT IGNORE INTO covid_cases SELECT * FROM covid_cases_temp")
+    print("data updated in table")
+    #con.close()
+    #print("connection closed")
 
 if __name__ == "__main__":
     get_data()

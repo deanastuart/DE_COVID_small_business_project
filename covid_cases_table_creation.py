@@ -10,8 +10,8 @@ covid_cases_temp = Table('covid_cases_temp', metadata,
     Column('Zipcode', INT),
     Column('County', VARCHAR(45)),
     Column('Statistic', VARCHAR(60)),
-    Column('Date used', VARCHAR(45)),
     Column('Value', FLOAT),
+    Column('Date used', VARCHAR(45)),
     Column('Unit', VARCHAR(100)),
     Column('Age adjusted', VARCHAR(60)),
     Column('Zipcode Population', INT),
@@ -25,8 +25,8 @@ covid_cases = Table('covid_cases', metadata,
     Column('Zipcode', INT),
     Column('County', VARCHAR(45)),
     Column('Statistic', VARCHAR(60)),
-    Column('Date used', VARCHAR(45)),
     Column('Value', FLOAT),
+    Column('Date used', VARCHAR(45)),
     Column('Unit', VARCHAR(100)),
     Column('Age adjusted', VARCHAR(60)),
     Column('Zipcode Population', INT),
@@ -35,5 +35,8 @@ covid_cases = Table('covid_cases', metadata,
     Column('Zipcode latitude', FLOAT),
     Column('Zipcode longitude', FLOAT),)
 
+def create():
+    metadata.create_all(engine)
 
-metadata.create_all(engine)
+if __name__ == "__main__":
+    create()
