@@ -10,7 +10,7 @@ This project was designed to explore the correlations between Delaware State COV
 * Delaware Mitigation Strategies
 * Business closures and revenue
 ### Pipelines deployed in Kubernetes
-### Data retrieved from MYSQL to create visualizations with Folium and matplotlib
+### Data retrieved from MYSQL to create visualizations with Folium and Plotly
 ![](images/DE_Covid_Map.png)
 
 ## Technologies Used:
