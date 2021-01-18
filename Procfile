@@ -1,1 +1,1 @@
-web: gunincorn sh -c "cd ./app/app":server
+web: gunincorn ./app/app:server
