@@ -8,7 +8,7 @@ from datetime import date, timedelta, datetime
 
 def make_map():
     #Saves environment variable to local variable
-    mysql_pw = os.environ.get("SQL")
+    mysql_pw = os.environ["SQL"]
 
     #Creates connection to database
     engine = create_engine('mysql://'+ mysql_pw)
