@@ -22,6 +22,7 @@ This project was designed to explore the correlations between Delaware State COV
 * Folium
 * Plotly
 * Dash
+* Heroku
 * Jupyter Notebook
 
 ## Deploying Pipelines on Kubernetes:
