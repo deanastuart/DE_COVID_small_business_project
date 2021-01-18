@@ -6,6 +6,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
+server = app.server
 
 data = vis.restrict_df()
 delaware_df1, delware_df2 = vis.get_state_data()

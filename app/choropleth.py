@@ -8,7 +8,7 @@ from datetime import date, timedelta, datetime
 
 def make_map():
     #Saves environment variable to local variable
-    mysql_pw = os.environ.get("SQL")
+    mysql_pw = os.environ["SQL"]
 
     #Creates connection to database
     engine = create_engine('mysql://'+ mysql_pw)
@@ -38,7 +38,8 @@ def make_map():
     tomorrow_cases = pd.DataFrame(list(tomorrow_dict.items()), columns=['Zipcode', 'Value'])
 
     #Opens geojson of Delaware's zip codes
-    zipcodes = os.path.join("de_delaware_zip_codes_geo.min.json")
+    dir = os.path.dirname(os.path.abspath(__file__))
+    zipcodes = os.path.join(dir + '/de_delaware_zip_codes_geo.min.json')
 
     #Sets maps coordinates to be Dover, Delaware when first opened
     m = folium.Map(location = [39.1582,-75.5244], zoom_start=8, overlay=True)
@@ -88,7 +89,8 @@ def make_map():
     tooltip = 'Click for More Info'
 
     #Opens geojsons of Delaware's zip code's center Lats/Longs
-    file_path = 'markers.json'
+    file = '/markers.json'
+    file_path = os.path.join(dir + file)
     with open(file_path, 'r') as f:
         zipcode_central = json.load(f)
 
