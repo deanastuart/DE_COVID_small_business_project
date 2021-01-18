@@ -1,0 +1,1 @@
+web: gunincorn sh -c "cd ./app/app":server
