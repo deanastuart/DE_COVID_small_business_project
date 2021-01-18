@@ -1,1 +1,1 @@
-web: gunincorn ./app/app:server
+web: gunincorn --pythonpath app app:server
