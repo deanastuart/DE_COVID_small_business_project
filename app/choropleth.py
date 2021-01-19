@@ -149,7 +149,7 @@ def make_map():
 
 
 
-    #Allows for layer selection
+    #Allows for multiple layer selection
     folium.LayerControl().add_to(m)
     #Saves map
     m.save('map.html')
