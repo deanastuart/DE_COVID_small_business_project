@@ -4,7 +4,7 @@
 This project was designed to explore the correlations between Delaware State COVID restrictions and small business closures and loss in revenue. In addition, this project illustrates Delaware COVID case counts by ZIP code as well as predict tomorrow's COVID case counts.
 
 ## How it works:
-![](images/Delaware_Covid_Business_Project.png)
+![](images/Delaware_Coronavirus_Tracker.png)
 ### Three data pipelines clean and store data in a MYSQL database:
 * Covid cases by ZIP code 
 * Delaware Mitigation Strategies
