@@ -87,4 +87,4 @@ def update_graph(var):
 
 if __name__ == '__main__':
     choropleth.make_map()
-    app.run_server(debug=True)
+    app.run_server(debug=False)
