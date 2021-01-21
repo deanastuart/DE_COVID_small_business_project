@@ -9,7 +9,7 @@ This project was designed to explore the correlations between Delaware State COV
 * Covid cases by ZIP code 
 * Delaware Mitigation Strategies
 * Business closures and revenue
-### Pipelines deployed in Kubernetes
+
 ### Data retrieved from MYSQL to create visualizations with Folium and Plotly
 ![](images/Delaware_Coronavirus_Map.png)
 
