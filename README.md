@@ -1,7 +1,7 @@
 # DE_COVID_small_business_project
 
 ## About
-This project was designed to explore the correlations between Delaware State COVID restrictions and small business closures and loss in revenue. In addition, this project illustrates Delaware COVID case counts by ZIP code as well as predict tomorrow's COVID case counts.
+This project was designed to explore the correlations between Delaware State COVID restrictions and small business closures and loss in revenue. In addition, this project illustrates Delaware COVID case counts by ZIP code as well as predict tomorrow's COVID case counts. [View our dashboard.](https://mysterious-sands-26973.herokuapp.com/)
 
 ## How it works:
 ![](images/Delaware_Covid_Business_Project.png)
