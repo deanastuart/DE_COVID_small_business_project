@@ -50,7 +50,7 @@ app.layout = html.Div([
                 style={'textAlign':'center'}),
 
     dcc.Markdown('''
-    This project was developed by Zip Code Wilmington data engineering students [Luke Roy](https://www.linkedin.com/in/lucasjroy/), [Deana Stuart](www.linkedin.com/in/deanastuart), and [Amanda Winkelmayer](https://www.linkedin.com/in/engineer-amanda/).
+    This project was developed by Zip Code Wilmington data engineering students [Luke Roy](https://www.linkedin.com/in/lucasjroy/), [Deana Stuart](https://www.linkedin.com/in/deanastuart), and [Amanda Winkelmayer](https://www.linkedin.com/in/engineer-amanda/).
     
     Learn more about our project on our [Github](https://github.com/deanastuart/DE_COVID_small_business_project).
     
