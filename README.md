@@ -11,7 +11,7 @@ This project was designed to explore the correlations between Delaware State COV
 * Business closures and revenue
 
 ### Data retrieved from MYSQL to create visualizations with Folium and Plotly
-![](images/Delaware_Coronavirus_Map.png)
+![](images/Delaware_Coronavirus_Tracker.png)
 
 ## Technologies Used:
 * Python
@@ -22,7 +22,6 @@ This project was designed to explore the correlations between Delaware State COV
 * Folium
 * Plotly
 * Dash
-* Heroku
 * Jupyter Notebook
 
 ## Deploying Pipelines on Kubernetes:
